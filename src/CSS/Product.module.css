@@ -1,0 +1,49 @@
+.btnAllcat {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.btncards {
+    display: flex;
+    gap: 20px;
+}
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Create four equal-width columns */
+    grid-gap: 10px;
+    border: 5px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    /* margin-top: 3rem; */
+}
+
+.Allcards {
+    width: 80%;
+    height: 100%;
+}
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Default: 4 cards on laptop */
+    grid-gap: 10px;
+    border: 5px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+    .cardcontainer {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards on tablet */
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .cardcontainer {
+        grid-template-columns: repeat(2, 1fr); /* 1 card on mobile */
+    }
+}
