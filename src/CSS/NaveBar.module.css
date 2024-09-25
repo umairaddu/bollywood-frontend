@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: rgb(134, 31, 31);
+  background-color:#232f3e;
   color: #fff;
   position: fixed;
   top: 0;
@@ -19,6 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 100px; /* Adds spacing between list items */
+
 }
 
 .Navecontant li {
@@ -34,9 +36,9 @@
 }
 
 .button {
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 10px;
-  width: 150px;
+  width: 100px;
   list-style: none;
 }
 
@@ -96,7 +98,7 @@ img {
     top: 60px;
     /* Adjust the top position as needed */
     left: 0;
-    background-color: rgb(134, 31, 31);
+    background-color:#232f3e;
     width: 100%;
     padding: 10px;
     z-index: 1;
@@ -120,10 +122,11 @@ img {
 }
 
 .bar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 6px 0;
+  /* width: 25px; */
+  /* height: 3px; */
+  /* background-color: #fff; */
+  /* margin: 6px 0; */
+  /* gap: 10px; */
 }
 
 /* Adjust the styles of the navigation links for smaller screens */
@@ -139,6 +142,7 @@ img {
 
   .hamburger {
     display: block;
+    
     /* Display the hamburger icon on smaller screens */
   }
 
@@ -149,13 +153,12 @@ img {
     top: 80px;
     /* Adjust the top position as needed */
     left: 0;
-    background-color: rgb(134, 31, 31);
-    width: 50vw;
-    height: 85vh;
-    padding: 10px;
+    background-color:#232f3e;
+    /* width: 50vw; */
+    /* height: 85vh; */
+    /* padding: 10px; */
     z-index: 1;
-    /* border: 2px solid black; */
-    /* display: block; */
+    
   }
 
   .Navecontain {
