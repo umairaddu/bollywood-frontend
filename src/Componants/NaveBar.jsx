@@ -28,7 +28,7 @@ const NavaBar = () => {
                 <div className={style.bar}></div>
                 <div className={style.bar}></div>
             </div>
-            <h2 style={{ marginTop: '20px', display: 'flex' }}>
+            <h2 style={{ marginTop: '', display: 'flex' }}>
                 Bollywood <span style={{ color: 'red' }}>Style</span>
             </h2>
             <div>

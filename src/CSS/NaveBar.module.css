@@ -15,11 +15,10 @@
 }
 
 .Navecontant {
-  /* width: 100vh; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px; /* Adds spacing between list items */
+  gap: 30px; /* Adds spacing between list items */
 
 }
 
@@ -47,7 +46,7 @@ img {
 }
 
 img {
-  background-image: url(hd_bg.jpj);
+  /* background-image: url(hd_bg.jpj); */
 }
 
 /* Media query for screens smaller than a certain width (e.g., 768px for tablets) */
@@ -122,11 +121,11 @@ img {
 }
 
 .bar {
-  /* width: 25px; */
-  /* height: 3px; */
-  /* background-color: #fff; */
-  /* margin: 6px 0; */
-  /* gap: 10px; */
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  gap: 10px;
 }
 
 /* Adjust the styles of the navigation links for smaller screens */
@@ -150,14 +149,11 @@ img {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 59px;
     /* Adjust the top position as needed */
     left: 0;
     background-color:#232f3e;
-    /* width: 50vw; */
-    /* height: 85vh; */
-    /* padding: 10px; */
-    z-index: 1;
+    /* z-index: 1; */
     
   }
 
